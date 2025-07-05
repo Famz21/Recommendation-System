@@ -4,9 +4,9 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="MLOPS-PROJECT-2",
+    name="Recommendation-System",
     version="0.1",
-    author="Sudhanshu",
+    author="VIRA",
     packages=find_packages(),
     install_requires = requirements,
 )
